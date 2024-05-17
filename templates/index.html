@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sql Injection</title>
+    <style>
+        *{
+            font-size:larger ;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <marquee><h1>Try Sql Injection Here</h1></marquee>
+    <center>
+        <h1 class="error"> {{error}} </h1>
+    <form action="/process" method="GET">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    </center>
+    <!-- try with test and pass for access -->
+</body>
+</html>
